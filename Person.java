@@ -15,11 +15,11 @@ public class Person{
     public static void main(String[] args){
         Person1 ob1 = new Person1("Jhon","Doe",30);
          Person1 ob2 = new Person1("Alice","Smith",25);
-         double sum = ob1.Age + ob2.Age;
-         double average = sum/2;
-
          System.out.println("Person 1:"+ob1.GetFullName());
          System.out.println("person 2:"+ob2.GetFullName());
+
+         double sum = ob1.Age + ob2.Age;
+         double average = sum/2;
          System.out.println("Average Age:"+average);
     }
 }
